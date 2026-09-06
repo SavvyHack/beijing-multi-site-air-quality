@@ -11,3 +11,4 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+panel.pkl
