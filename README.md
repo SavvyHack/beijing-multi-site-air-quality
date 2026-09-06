@@ -17,8 +17,6 @@ The training data cover an earlier monitoring period, while the hidden test data
 
 Because the split is chronological, random cross-validation may produce overly optimistic results. Time-aware validation is strongly recommended.
 
-The source and full attribution for the data will be disclosed after the competition. Participants must not attempt to identify the original dataset, use external copies of the data, or recover hidden test targets.
-
 Submissions are evaluated using Root Mean Squared Error (RMSE):
 
 
@@ -44,5 +42,4 @@ DEWP: dew-point temperature in degrees Celsius.
 RAIN: precipitation in mm.
 wd: wind direction.
 WSPM: wind speed in m/s.
-PM2_5_next_hour: target PM2.5 concentration one hour after the observation.
 Missing predictor values are preserved as blank CSV fields.
